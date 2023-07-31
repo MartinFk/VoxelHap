@@ -24,7 +24,7 @@ series = {UIST '23}
 }
 ```
 
-## BaseVoxels
+## Voxels
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/voxels.JPG">
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/overview.png">
 
