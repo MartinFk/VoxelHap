@@ -43,13 +43,13 @@ The firmware folder contains the arduino files. Master.ino should be uploaded on
 
 (1) Voxels have a capcitive touch sensor MPR121. Download Adafruit_MPR121 libray from Arduino IDE. -> https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/wiring
 
-(2) Voxels need FastLED library to manage LEDs on board. Download FastLED library from Arduino IDE. -> https://fastled.io/
+(2) Voxels require FastLED library to manage LEDs on board. Download FastLED library from Arduino IDE. -> https://fastled.io/
 
-(3) Voxels cubes also need ArduinoJson library to send JSON file to the master. Download ArduinoJson library from Arduino IDE. -> https://arduinojson.org/
+(3) Voxels require ArduinoJson library to send JSON file to the master. Download ArduinoJson library from Arduino IDE. -> https://arduinojson.org/
 
-(4) For master - slave communication between Voxels and the master Wemos D1 we use painlessmesh library. Download Painlessmesh library from Arduino IDE, specifically namedmesh example. -> https://gitlab.com/painlessMesh/painlessMesh/-/tree/develop/examples/namedMesh?ref_type=heads
+(4) For Master/Slave communication between Voxels and the master Wemos D1, we use the PainlessMesh library. Download Painlessmesh library from Arduino IDE, specifically namedmesh example. -> https://gitlab.com/painlessMesh/painlessMesh/-/tree/develop/examples/namedMesh?ref_type=heads
 
-(5) For Unity- Master communication establish Serial communication and import the unity package (with .Net4.x frame work in player settings).
+(5) For Unity- Master communication establish Serial communication and import the Unity3D package (with .Net4.x frame work in player settings).
 
 ## Issues
 
