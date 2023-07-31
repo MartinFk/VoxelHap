@@ -28,6 +28,10 @@ series = {UIST '23}
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/voxels.JPG">
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/overview.png">
 
+## PCB
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcbParts.png">
+
+
 
 ## Dependencies 
 
