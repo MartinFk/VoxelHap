@@ -1,6 +1,6 @@
 # VoxelHap
 
-VoxelHap is an open-source toolkit, aiming to support VR researchers and developers in constructing highly functional proxy objects providing tactile and kinesthetic haptic feedback. It consits of Voxels and Plates: (1) Voxels are blocks with special functionalities that form the core of each physical proxy, (2) Plates increase a proxy's haptic resolution, such as its shape, texture or weight. Beyond providing physical capabilities to realize haptic sensations, VoxelHap utilizes VR illusion techniques to expand its haptic resolution.
+VoxelHap is an open-source toolkit, aiming to support VR researchers and developers in constructing highly functional proxy objects providing tactile and kinesthetic haptic feedback. It consists of Voxels and Plates: (1) Voxels are blocks with special functionalities that form the core of each physical proxy, (2) Plates increase a proxy's haptic resolution, such as its shape, texture or weight. Beyond providing physical capabilities to realize haptic sensations, VoxelHap utilizes VR illusion techniques to expand its haptic resolution.
 
 [![VoxelHap](https://github.com/MartinFk/VoxelHap/blob/main/img/preview.png)](https://youtu.be/_2FG0eMlGLQ "VoxelHap")
 
