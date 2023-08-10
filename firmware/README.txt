@@ -1,4 +1,4 @@
-Firmware code for connecting Voxels, based on Master/Slave architecture. All the Voxels send data to the Master (Wemos D1 mini).
+Firmware code for connecting Voxels, based on Master/Slave architecture. All Voxels send data to the Master (Wemos D1 mini).
 
 (1) Upload Master to Wemos D1 mini. 
 
