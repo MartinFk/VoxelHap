@@ -34,9 +34,12 @@ The Voxels communicate using a Master/Slave architecure. Master (Wemos D1 mini) 
 
 The firmware folder contains the arduino files. Master.ino should be uploaded onto the master (Wemos D1 mini), and Slave_VoxelHap_Cubes.ino onto the BaseVoxels.
 
-## PCB
-<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcbParts.png">
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/architecture.svg">
 
+
+## PCB
+
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcbParts.png">
 
 
 ## Dependencies 
