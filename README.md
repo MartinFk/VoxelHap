@@ -1,8 +1,8 @@
 # VoxelHap
 
-VoxelHap is an open-source toolkit, aiming to support VR researchers and developers in constructing highly functional proxy objects providing tactile and kinesthetic haptic feedback. It consits of Voxels and Plates: (1) Voxels are blocks with special functionalities that form the core of each physical proxy, (2) Plates increase a proxy's haptic resolution, such as its shape, texture or weight. Beyond providing physical capabilities to realize haptic sensations, VoxelHap utilizes VR illusion techniques to expand its haptic resolution.
+VoxelHap is an open-source toolkit, aiming to support VR researchers and developers in constructing highly functional proxy objects providing tactile and kinesthetic haptic feedback. It consists of Voxels and Plates: (1) Voxels are blocks with special functionalities that form the core of each physical proxy, (2) Plates increase a proxy's haptic resolution, such as its shape, texture or weight. Beyond providing physical capabilities to realize haptic sensations, VoxelHap utilizes VR illusion techniques to expand its haptic resolution.
 
-[![VoxelHap](https://img.youtu.be/_2FG0eMlGLQ/0.jpg)](https://youtu.be/_2FG0eMlGLQ "VoxelHap")
+[![VoxelHap](https://github.com/MartinFk/VoxelHap/blob/main/img/preview.png)](https://youtu.be/_2FG0eMlGLQ "VoxelHap")
 
 This work is provided under a MIT License. 
 
@@ -24,17 +24,35 @@ series = {UIST '23}
 }
 ```
 
+## Voxels
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/img/voxels.JPG">
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/img/overview.png">
+
+## Communication
+
+The Voxels communicate using a Master/Slave architecure. Master (Wemos D1 mini) is connected to a host maschine via serial port running Unity3D. BaseVoxels (slaves) communicate to the master wirelessly using PainlessMesh.
+
+The firmware folder contains the arduino files. Master.ino should be uploaded onto the master (Wemos D1 mini), and Slave_VoxelHap_Cubes.ino onto the BaseVoxels.
+
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/architecture.svg">
+
+
+## PCB
+
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcbParts.png">
+
+
 ## Dependencies 
 
-(1) Voxels have a capcitive touch sensor MPR121. Download Adafruit_MPR121 libray from Arduino IDE. https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/wiring
+(1) Voxels use a capacitive touch sensor MPR121. Download Adafruit_MPR121 libray from Arduino IDE. -> https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/wiring
 
-(2) Voxels need FastLED library to manage LEDs on board. Download FastLED library from Arduino IDE. https://fastled.io/
+(2) Voxels require FastLED library to manage LEDs on board. Download FastLED library from Arduino IDE. -> https://fastled.io/
 
-(3) Voxels cubes also need ArduinoJson library to send JSON file to the master. SO download ArduinoJson library from Arduino IDE. https://arduinojson.org/
+(3) Voxels require ArduinoJson library to send JSON file to the master. Download ArduinoJson library from Arduino IDE. -> https://arduinojson.org/
 
-(4) For master - slave communication between Voxels and the master Wemos D1 we use painlessmesh library. Download Painlessmesh library from Arduino IDE, specifically namedmesh example. https://gitlab.com/painlessMesh/painlessMesh/-/tree/develop/examples/namedMesh?ref_type=heads
+(4) For Master/Slave communication between Voxels and the master Wemos D1, we use the PainlessMesh library. Download Painlessmesh library from Arduino IDE, specifically namedmesh example. -> https://gitlab.com/painlessMesh/painlessMesh/-/tree/develop/examples/namedMesh?ref_type=heads
 
-(5) For Unity- Master communication establish Serial communication and import the unity package (with .Net4.x frame work in player settings).
+(5) For Unity- Master communication establish Serial communication and import the Unity3D package (with .Net4.x frame work in player settings).
 
 ## Issues
 
