@@ -30,7 +30,7 @@ series = {UIST '23}
 
 ## Communication
 
-The Voxels communicate using a Master/Slave architecure. Master (Wemos D1 mini) is connected to a host maschine via serial port running Unity3D. BaseVoxels (slaves) communicate to the master wirelessly using PainlessMesh.
+Voxels communicate using a Master/Slave architecure. Master (Wemos D1 mini) is connected to a host maschine via serial port running Unity3D. BaseVoxels (slaves) communicate to the master wirelessly using PainlessMesh.
 
 The firmware folder contains the arduino files. Master.ino should be uploaded onto the master (Wemos D1 mini), and Slave_VoxelHap_Cubes.ino onto the BaseVoxels.
 
