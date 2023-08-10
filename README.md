@@ -41,7 +41,7 @@ The firmware folder contains the arduino files. Master.ino should be uploaded on
 
 ## Dependencies 
 
-(1) Voxels have a capcitive touch sensor MPR121. Download Adafruit_MPR121 libray from Arduino IDE. -> https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/wiring
+(1) Voxels use a capacitive touch sensor MPR121. Download Adafruit_MPR121 libray from Arduino IDE. -> https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/wiring
 
 (2) Voxels require FastLED library to manage LEDs on board. Download FastLED library from Arduino IDE. -> https://fastled.io/
 
