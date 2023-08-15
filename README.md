@@ -41,6 +41,8 @@ The firmware folder contains the arduino files. Master.ino should be uploaded on
 
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcbParts.png">
 
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcb_components.png">
+
 
 ## Dependencies 
 
