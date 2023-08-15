@@ -28,6 +28,10 @@ series = {UIST '23}
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/voxels.JPG">
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/overview.png">
 
+---------------------------------------------------------------------------------------------
+
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/parts.svg">
+
 ## Communication
 
 Voxels communicate using a Master/Slave architecure. Master (Wemos D1 mini) is connected to a host maschine via serial port running Unity3D. BaseVoxels (slaves) communicate to the master wirelessly using PainlessMesh.
