@@ -28,9 +28,13 @@ series = {UIST '23}
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/voxels.JPG">
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/img/overview.png">
 
+---------------------------------------------------------------------------------------------
+
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/parts.svg">
+
 ## Communication
 
-The Voxels communicate using a Master/Slave architecure. Master (Wemos D1 mini) is connected to a host maschine via serial port running Unity3D. BaseVoxels (slaves) communicate to the master wirelessly using PainlessMesh.
+Voxels communicate using a Master/Slave architecure. Master (Wemos D1 mini) is connected to a host maschine via serial port running Unity3D. BaseVoxels (slaves) communicate to the master wirelessly using PainlessMesh.
 
 The firmware folder contains the arduino files. Master.ino should be uploaded onto the master (Wemos D1 mini), and Slave_VoxelHap_Cubes.ino onto the BaseVoxels.
 
@@ -40,6 +44,8 @@ The firmware folder contains the arduino files. Master.ino should be uploaded on
 ## PCB
 
 <img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcbParts.png">
+
+<img src="https://github.com/MartinFk/VoxelHap/blob/main/renderings/pcb_components.png">
 
 
 ## Dependencies 
